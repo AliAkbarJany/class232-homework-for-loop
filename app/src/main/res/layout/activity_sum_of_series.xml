@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SumOfSeries"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/editSeriesSum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Natural number"
+                android:inputType="number"
+                android:layout_margin="25dp"
+                />
+            <Button
+                android:id="@+id/buttonSumOfSeries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate Square"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/textViewSeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="25sp"
+                android:background="#80DEEA"
+                />
+
+            <TextView
+                android:id="@+id/textViewSumSeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="25sp"
+                android:background="#FFF9C4"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
